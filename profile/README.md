@@ -30,22 +30,6 @@ That means commerce, configurators, reseller tooling, internal portals, and the 
 -   API and sync layers for product data, carts, orders, and price lists.
 -   Shared runtime packages and infrastructure glue for keeping multiple apps aligned instead of drifting into chaos.
 
-## Selected product streams
-
-### String Furniture
-
--   `string-web-inertia`: the current Inertia-based web platform work.
--   `string-portal` and `string-portal-inertia`: backoffice and reseller workflows.
--   `string-planner`, `string-planner-inertia`, and related planner tooling: configurator hosting, saved designs, and public integration APIs.
--   `String.BigComIntegration-main`: BigCommerce-era architecture tying together storefronts, microservices, ERP, and PIM.
--   `string-dashboard`, `string-elevate`, and related internal tools: operational visibility and debugging.
--   `string-norce` and adjacent integration work: commerce service connectivity and API orchestration.
-
-### Grythyttan
-
--   `grythyttan-portal`: portal and operational tooling for the Grythyttan business.
--   `grythyttan-inertia`: newer Inertia-based application work aligned with the broader platform direction.
-
 ## How we work
 
 -   Laravel, Inertia, Vue, TypeScript, Tailwind, and a very low tolerance for accidental complexity.
